@@ -1,4 +1,4 @@
-package br.com.erudio.controllers;
+package br.com.diogo.controllers;
 
 import java.util.Arrays;
 import java.util.List;
@@ -19,8 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import br.com.erudio.data.vo.v1.UploadFileResponseVO;
-import br.com.erudio.services.FileStorageService;
+import br.com.diogo.data.vo.v1.UploadFileResponseVO;
+import br.com.diogo.services.FileStorageService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.servlet.http.HttpServletRequest;
 

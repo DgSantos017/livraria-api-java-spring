@@ -1,4 +1,4 @@
-package br.com.erudio.integrationtests.controller.withyaml.mapper;
+package br.com.diogo.integrationtests.controller.withyaml.mapper;
 
 import java.util.logging.Logger;
 

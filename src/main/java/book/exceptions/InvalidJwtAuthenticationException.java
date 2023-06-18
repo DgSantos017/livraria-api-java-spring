@@ -1,4 +1,4 @@
-package br.com.erudio.exceptions;
+package br.com.diogo.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.AuthenticationException;

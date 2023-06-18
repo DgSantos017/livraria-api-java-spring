@@ -1,4 +1,4 @@
-package br.com.erudio.repositories;
+package br.com.diogo.repositories;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import br.com.erudio.model.Person;
+import br.com.diogo.model.Person;
 
 @Repository
 public interface PersonRepository extends JpaRepository<Person, Long> {

@@ -1,4 +1,4 @@
-package br.com.erudio.integrationtests.controller.withxml;
+package br.com.diogo.integrationtests.controller.withxml;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertNotNull;
@@ -12,10 +12,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 
-import br.com.erudio.configs.TestConfigs;
-import br.com.erudio.integrationtests.testcontainers.AbstractIntegrationTest;
-import br.com.erudio.integrationtests.vo.AccountCredentialsVO;
-import br.com.erudio.integrationtests.vo.TokenVO;
+import br.com.diogo.configs.TestConfigs;
+import br.com.diogo.integrationtests.testcontainers.AbstractIntegrationTest;
+import br.com.diogo.integrationtests.vo.AccountCredentialsVO;
+import br.com.diogo.integrationtests.vo.TokenVO;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 @TestMethodOrder(OrderAnnotation.class)

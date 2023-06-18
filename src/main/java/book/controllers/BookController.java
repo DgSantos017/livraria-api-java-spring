@@ -1,4 +1,4 @@
-package br.com.erudio.controllers;
+package br.com.diogo.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
@@ -18,9 +18,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.erudio.data.vo.v1.BookVO;
-import br.com.erudio.services.BookServices;
-import br.com.erudio.util.MediaType;
+import br.com.diogo.data.vo.v1.BookVO;
+import br.com.diogo.services.BookServices;
+import br.com.diogo.util.MediaType;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.ArraySchema;
 import io.swagger.v3.oas.annotations.media.Content;

@@ -1,11 +1,11 @@
-package br.com.erudio.integrationtests.vo.wrappers;
+package br.com.diogo.integrationtests.vo.wrappers;
 
 import java.io.Serializable;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import br.com.erudio.integrationtests.vo.PersonVO;
+import br.com.diogo.integrationtests.vo.PersonVO;
 
 public class PersonEmbeddedVO implements Serializable{
 

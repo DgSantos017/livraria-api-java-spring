@@ -1,4 +1,4 @@
-package br.com.erudio.integrationtests.swagger;
+package br.com.diogo.integrationtests.swagger;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.*;
@@ -6,8 +6,8 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import br.com.erudio.configs.TestConfigs;
-import br.com.erudio.integrationtests.testcontainers.AbstractIntegrationTest;
+import br.com.diogo.configs.TestConfigs;
+import br.com.diogo.integrationtests.testcontainers.AbstractIntegrationTest;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 public class SwaggerIntegrationTest extends AbstractIntegrationTest{

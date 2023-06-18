@@ -1,4 +1,4 @@
-package br.com.erudio.integrationtests.controller.withyaml;
+package br.com.diogo.integrationtests.controller.withyaml;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -18,13 +18,13 @@ import org.springframework.boot.test.context.SpringBootTest;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 
-import br.com.erudio.configs.TestConfigs;
-import br.com.erudio.integrationtests.controller.withyaml.mapper.YMLMapper;
-import br.com.erudio.integrationtests.testcontainers.AbstractIntegrationTest;
-import br.com.erudio.integrationtests.vo.AccountCredentialsVO;
-import br.com.erudio.integrationtests.vo.BookVO;
-import br.com.erudio.integrationtests.vo.TokenVO;
-import br.com.erudio.integrationtests.vo.pagedmodels.PagedModelBook;
+import br.com.diogo.configs.TestConfigs;
+import br.com.diogo.integrationtests.controller.withyaml.mapper.YMLMapper;
+import br.com.diogo.integrationtests.testcontainers.AbstractIntegrationTest;
+import br.com.diogo.integrationtests.vo.AccountCredentialsVO;
+import br.com.diogo.integrationtests.vo.BookVO;
+import br.com.diogo.integrationtests.vo.TokenVO;
+import br.com.diogo.integrationtests.vo.pagedmodels.PagedModelBook;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.config.EncoderConfig;
 import io.restassured.config.RestAssuredConfig;

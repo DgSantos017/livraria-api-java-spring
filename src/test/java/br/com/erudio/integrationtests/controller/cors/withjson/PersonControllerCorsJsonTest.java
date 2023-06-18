@@ -1,4 +1,4 @@
-package br.com.erudio.integrationtests.controller.cors.withjson;
+package br.com.diogo.integrationtests.controller.cors.withjson;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertNotNull;
@@ -17,11 +17,11 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import br.com.erudio.configs.TestConfigs;
-import br.com.erudio.data.vo.v1.security.TokenVO;
-import br.com.erudio.integrationtests.testcontainers.AbstractIntegrationTest;
-import br.com.erudio.integrationtests.vo.AccountCredentialsVO;
-import br.com.erudio.integrationtests.vo.PersonVO;
+import br.com.diogo.configs.TestConfigs;
+import br.com.diogo.data.vo.v1.security.TokenVO;
+import br.com.diogo.integrationtests.testcontainers.AbstractIntegrationTest;
+import br.com.diogo.integrationtests.vo.AccountCredentialsVO;
+import br.com.diogo.integrationtests.vo.PersonVO;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.filter.log.RequestLoggingFilter;
@@ -80,7 +80,7 @@ public class PersonControllerCorsJsonTest extends AbstractIntegrationTest {
 		
 		var content = given().spec(specification)
 				.contentType(TestConfigs.CONTENT_TYPE_JSON)
-					.header(TestConfigs.HEADER_PARAM_ORIGIN, TestConfigs.ORIGIN_ERUDIO)
+					.header(TestConfigs.HEADER_PARAM_ORIGIN, TestConfigs.ORIGIN_diogo)
 					.body(person)
 					.when()
 					.post()
@@ -137,7 +137,7 @@ public class PersonControllerCorsJsonTest extends AbstractIntegrationTest {
 			
 		var content = given().spec(specification)
 				.contentType(TestConfigs.CONTENT_TYPE_JSON)
-					.header(TestConfigs.HEADER_PARAM_ORIGIN, TestConfigs.ORIGIN_ERUDIO)
+					.header(TestConfigs.HEADER_PARAM_ORIGIN, TestConfigs.ORIGIN_diogo)
 					.pathParam("id", person.getId())
 					.when()
 					.get("{id}")

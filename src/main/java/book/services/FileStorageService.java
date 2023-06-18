@@ -1,4 +1,4 @@
-package br.com.erudio.services;
+package br.com.diogo.services;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -12,9 +12,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
 
-import br.com.erudio.config.FileStorageConfig;
-import br.com.erudio.exceptions.FileStorageException;
-import br.com.erudio.exceptions.MyFileNotFoundException;
+import br.com.diogo.config.FileStorageConfig;
+import br.com.diogo.exceptions.FileStorageException;
+import br.com.diogo.exceptions.MyFileNotFoundException;
 
 @Service
 public class FileStorageService {

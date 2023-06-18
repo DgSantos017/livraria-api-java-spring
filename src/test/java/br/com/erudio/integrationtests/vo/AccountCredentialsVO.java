@@ -1,4 +1,4 @@
-package br.com.erudio.integrationtests.vo;
+package br.com.diogo.integrationtests.vo;
 
 import java.io.Serializable;
 

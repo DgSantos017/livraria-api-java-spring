@@ -1,4 +1,4 @@
-package br.com.erudio.serialization.converter;
+package br.com.diogo.serialization.converter;
 
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter;

@@ -1,4 +1,4 @@
-package br.com.erudio.integrationtests.controller.withxml;
+package br.com.diogo.integrationtests.controller.withxml;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertFalse;
@@ -18,12 +18,12 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
-import br.com.erudio.configs.TestConfigs;
-import br.com.erudio.data.vo.v1.security.TokenVO;
-import br.com.erudio.integrationtests.testcontainers.AbstractIntegrationTest;
-import br.com.erudio.integrationtests.vo.AccountCredentialsVO;
-import br.com.erudio.integrationtests.vo.PersonVO;
-import br.com.erudio.integrationtests.vo.pagedmodels.PagedModelPerson;
+import br.com.diogo.configs.TestConfigs;
+import br.com.diogo.data.vo.v1.security.TokenVO;
+import br.com.diogo.integrationtests.testcontainers.AbstractIntegrationTest;
+import br.com.diogo.integrationtests.vo.AccountCredentialsVO;
+import br.com.diogo.integrationtests.vo.PersonVO;
+import br.com.diogo.integrationtests.vo.pagedmodels.PagedModelPerson;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.filter.log.RequestLoggingFilter;

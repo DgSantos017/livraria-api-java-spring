@@ -1,4 +1,4 @@
-package br.com.erudio.integrationtests.testcontainers;
+package br.com.diogo.integrationtests.testcontainers;
 
 import java.util.Map;
 import java.util.stream.Stream;

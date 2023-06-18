@@ -1,11 +1,11 @@
-package br.com.erudio.integrationtests.vo.wrappers;
+package br.com.diogo.integrationtests.vo.wrappers;
 
 import java.io.Serializable;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import br.com.erudio.integrationtests.vo.BookVO;
+import br.com.diogo.integrationtests.vo.BookVO;
 
 public class BookEmbeddedVO implements Serializable {
 

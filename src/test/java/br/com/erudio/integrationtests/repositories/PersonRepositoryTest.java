@@ -1,4 +1,4 @@
-package br.com.erudio.integrationtests.repositories;
+package br.com.diogo.integrationtests.repositories;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -23,9 +23,9 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 
-import br.com.erudio.integrationtests.testcontainers.AbstractIntegrationTest;
-import br.com.erudio.model.Person;
-import br.com.erudio.repositories.PersonRepository;
+import br.com.diogo.integrationtests.testcontainers.AbstractIntegrationTest;
+import br.com.diogo.model.Person;
+import br.com.diogo.repositories.PersonRepository;
 
 @ExtendWith(SpringExtension.class)
 @DataJpaTest

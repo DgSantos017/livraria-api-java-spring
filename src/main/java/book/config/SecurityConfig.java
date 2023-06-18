@@ -1,4 +1,4 @@
-package br.com.erudio.config;
+package br.com.diogo.config;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -18,8 +18,8 @@ import org.springframework.security.crypto.password.Pbkdf2PasswordEncoder;
 import org.springframework.security.crypto.password.Pbkdf2PasswordEncoder.SecretKeyFactoryAlgorithm;
 import org.springframework.security.web.SecurityFilterChain;
 
-import br.com.erudio.security.jwt.JwtConfigurer;
-import br.com.erudio.security.jwt.JwtTokenProvider;
+import br.com.diogo.security.jwt.JwtConfigurer;
+import br.com.diogo.security.jwt.JwtTokenProvider;
 
 @EnableWebSecurity
 @Configuration

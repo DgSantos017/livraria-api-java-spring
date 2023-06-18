@@ -1,4 +1,4 @@
-package br.com.erudio.controllers;
+package br.com.diogo.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
@@ -20,9 +20,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.erudio.data.vo.v1.PersonVO;
-import br.com.erudio.services.PersonServices;
-import br.com.erudio.util.MediaType;
+import br.com.diogo.data.vo.v1.PersonVO;
+import br.com.diogo.services.PersonServices;
+import br.com.diogo.util.MediaType;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.ArraySchema;
 import io.swagger.v3.oas.annotations.media.Content;
@@ -121,7 +121,7 @@ public class PersonController {
 		return service.findById(id);
 	}
 
-	@CrossOrigin(origins = {"http://localhost:8080", "https://erudio.com.br"})
+	@CrossOrigin(origins = {"http://localhost:8080", "https://diogo.com.br"})
 	@PostMapping(
 		consumes = { MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML  },
 		produces = { MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML, MediaType.APPLICATION_YML  })

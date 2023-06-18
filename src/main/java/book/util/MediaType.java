@@ -1,4 +1,4 @@
-package br.com.erudio.util;
+package br.com.diogo.util;
 
 public class MediaType {
 	

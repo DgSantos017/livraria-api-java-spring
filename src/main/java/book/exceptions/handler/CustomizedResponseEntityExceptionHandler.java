@@ -1,4 +1,4 @@
-package br.com.erudio.exceptions.handler;
+package br.com.diogo.exceptions.handler;
 
 import java.util.Date;
 
@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import br.com.erudio.exceptions.ExceptionResponse;
-import br.com.erudio.exceptions.InvalidJwtAuthenticationException;
-import br.com.erudio.exceptions.RequiredObjectIsNullException;
-import br.com.erudio.exceptions.ResourceNotFoundException;
+import br.com.diogo.exceptions.ExceptionResponse;
+import br.com.diogo.exceptions.InvalidJwtAuthenticationException;
+import br.com.diogo.exceptions.RequiredObjectIsNullException;
+import br.com.diogo.exceptions.ResourceNotFoundException;
 
 @ControllerAdvice
 @RestController

@@ -1,4 +1,4 @@
-package br.com.erudio.mapper;
+package br.com.diogo.mapper;
 
 import java.util.ArrayList;
 import java.util.List;

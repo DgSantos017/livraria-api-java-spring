@@ -1,4 +1,4 @@
-package br.com.erudio.security.jwt;
+package br.com.diogo.security.jwt;
 
 import java.util.Base64;
 import java.util.Date;
@@ -18,8 +18,8 @@ import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.interfaces.DecodedJWT;
 
-import br.com.erudio.data.vo.v1.security.TokenVO;
-import br.com.erudio.exceptions.InvalidJwtAuthenticationException;
+import br.com.diogo.data.vo.v1.security.TokenVO;
+import br.com.diogo.exceptions.InvalidJwtAuthenticationException;
 import jakarta.annotation.PostConstruct;
 import jakarta.servlet.http.HttpServletRequest;
 

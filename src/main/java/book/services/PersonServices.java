@@ -1,4 +1,4 @@
-package br.com.erudio.services;
+package br.com.diogo.services;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
@@ -13,13 +13,13 @@ import org.springframework.hateoas.Link;
 import org.springframework.hateoas.PagedModel;
 import org.springframework.stereotype.Service;
 
-import br.com.erudio.controllers.PersonController;
-import br.com.erudio.data.vo.v1.PersonVO;
-import br.com.erudio.exceptions.RequiredObjectIsNullException;
-import br.com.erudio.exceptions.ResourceNotFoundException;
-import br.com.erudio.mapper.DozerMapper;
-import br.com.erudio.model.Person;
-import br.com.erudio.repositories.PersonRepository;
+import br.com.diogo.controllers.PersonController;
+import br.com.diogo.data.vo.v1.PersonVO;
+import br.com.diogo.exceptions.RequiredObjectIsNullException;
+import br.com.diogo.exceptions.ResourceNotFoundException;
+import br.com.diogo.mapper.DozerMapper;
+import br.com.diogo.model.Person;
+import br.com.diogo.repositories.PersonRepository;
 import jakarta.transaction.Transactional;
 
 @Service

@@ -1,4 +1,4 @@
-package br.com.erudio.data.vo.v1;
+package br.com.diogo.data.vo.v1;
 
 import java.io.Serializable;
 import java.util.Date;

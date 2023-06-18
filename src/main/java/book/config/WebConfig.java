@@ -1,4 +1,4 @@
-package br.com.erudio.config;
+package br.com.diogo.config;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.ContentNegotiationConfi
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-import br.com.erudio.serialization.converter.YamlJackson2HttpMesageConverter;
+import br.com.diogo.serialization.converter.YamlJackson2HttpMesageConverter;
 
 @Configuration
 public class WebConfig implements WebMvcConfigurer{

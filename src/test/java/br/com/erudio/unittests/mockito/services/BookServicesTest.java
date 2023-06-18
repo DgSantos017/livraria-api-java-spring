@@ -1,4 +1,4 @@
-package br.com.erudio.unittests.mockito.services;
+package br.com.diogo.unittests.mockito.services;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -18,12 +18,12 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import br.com.erudio.data.vo.v1.BookVO;
-import br.com.erudio.exceptions.RequiredObjectIsNullException;
-import br.com.erudio.model.Book;
-import br.com.erudio.repositories.BookRepository;
-import br.com.erudio.services.BookServices;
-import br.com.erudio.unittests.mapper.mocks.MockBook;
+import br.com.diogo.data.vo.v1.BookVO;
+import br.com.diogo.exceptions.RequiredObjectIsNullException;
+import br.com.diogo.model.Book;
+import br.com.diogo.repositories.BookRepository;
+import br.com.diogo.services.BookServices;
+import br.com.diogo.unittests.mapper.mocks.MockBook;
 
 @TestInstance(Lifecycle.PER_CLASS)
 @ExtendWith(MockitoExtension.class)

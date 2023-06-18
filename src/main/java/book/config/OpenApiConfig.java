@@ -1,4 +1,4 @@
-package br.com.erudio.config;
+package br.com.diogo.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,11 +17,11 @@ public class OpenApiConfig {
 				.title("RESTful API with Java 19 and Spring Boot 3.0.1")
 				.version("v1")
 				.description("Some description about your API")
-				.termsOfService("https://pub.erudio.com.br/meus-cursos")
+				.termsOfService("https://pub.diogo.com.br/meus-cursos")
 				.license(
 					new License()
 						.name("Apache 2.0")
-						.url("https://pub.erudio.com.br/meus-cursos")
+						.url("https://pub.diogo.com.br/meus-cursos")
 					)
 				);
 	}

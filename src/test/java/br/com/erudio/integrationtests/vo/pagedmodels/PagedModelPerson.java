@@ -1,8 +1,8 @@
-package br.com.erudio.integrationtests.vo.pagedmodels;
+package br.com.diogo.integrationtests.vo.pagedmodels;
 
 import java.util.List;
 
-import br.com.erudio.integrationtests.vo.PersonVO;
+import br.com.diogo.integrationtests.vo.PersonVO;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
